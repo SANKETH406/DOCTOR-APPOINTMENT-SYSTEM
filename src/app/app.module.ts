@@ -15,6 +15,7 @@ import { AdminhomeComponent } from './pages/adminhome/adminhome.component';
 import { AdmincancelComponent } from './pages/admincancel/admincancel.component';
 import { UserdataComponent } from './pages/userdata/userdata.component';
 import { AdminfeedbackComponent } from './pages/adminfeedback/adminfeedback.component';
+import { UserbookingsComponent } from './pages/userbookings/userbookings.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AdminfeedbackComponent } from './pages/adminfeedback/adminfeedback.comp
     AdminhomeComponent,
     AdmincancelComponent,
     UserdataComponent,
-    AdminfeedbackComponent
+    AdminfeedbackComponent,
+    UserbookingsComponent
   ],
   imports: [
     BrowserModule,
