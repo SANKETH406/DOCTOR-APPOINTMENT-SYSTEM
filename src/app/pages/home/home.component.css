@@ -12,7 +12,7 @@
 }
 
 .navbar{
-    width: 1365px;
+    width: 1550px;
     height: 75px;
     margin: auto;
     background-color: rgb(212, 211, 211);
@@ -36,7 +36,7 @@
 }
 
 .menu{
-    width: 400px;
+    width: 550px;
     float: left;
     height: 70px;
     margin-left: 400px;
@@ -69,8 +69,8 @@ ul li a:hover{
 }
 
 .form{
-    width: 250px;
-    height: 220px;
+    width: 275px;
+    height: 240px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 180px;
@@ -131,8 +131,8 @@ ul li a:hover{
 }
 
 .form1{
-    width: 250px;
-    height: 220px;
+    width: 275px;
+    height: 240px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 180px;
@@ -143,8 +143,8 @@ ul li a:hover{
 }
 
 .form2{
-    width: 250px;
-    height: 220px;
+    width: 275px;
+    height: 240px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 180px;
