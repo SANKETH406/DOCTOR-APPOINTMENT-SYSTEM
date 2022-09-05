@@ -12,7 +12,7 @@ import { UserbookingsComponent } from './pages/userbookings/userbookings.compone
 import { UserdataComponent } from './pages/userdata/userdata.component';
 
 const routes: Routes = [
-  {path:'',component:LoginComponent},
+  {path:'login',component:LoginComponent},
   {path:'about',component:AboutComponent},
   {path:'support',component:SupportComponent},
   {path:'home',component:HomeComponent},

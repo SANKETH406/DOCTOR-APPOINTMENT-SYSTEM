@@ -17,11 +17,11 @@
     margin: auto;
 }
 
-/*.icon{
+.icon{
     width: 2000px;
     float: left;
     height: 70px;
-}*/
+}
 
 .logo{
     color: #ff7200;
@@ -33,7 +33,7 @@
     margin-top: 5px
 }
 
-/*.menu{
+.menu{
     width: 400px;
     float: left;
     height: 70px;
@@ -109,7 +109,7 @@ ul li a:hover{
 
 .srch:focus{
     outline: none;
-}*/
+}
 
 .content{
     width: 1200px;
@@ -135,7 +135,7 @@ ul li a:hover{
     letter-spacing: 2px;
 }
 
-/*.content .cn{
+.content .cn{
     width: 160px;
     height: 40px;
     background: #ff7200;
@@ -157,7 +157,7 @@ ul li a:hover{
 
 .cn:hover{
     background-color: #fff;
-}*/
+}
 
 .content span{
     color: #ff7200;
