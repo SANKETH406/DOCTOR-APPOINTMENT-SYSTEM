@@ -17,6 +17,8 @@ import { UserdataComponent } from './pages/userdata/userdata.component';
 import { AdminfeedbackComponent } from './pages/adminfeedback/adminfeedback.component';
 import { UserbookingsComponent } from './pages/userbookings/userbookings.component';
 import { AppointmentbookingComponent } from './pages/appointmentbooking/appointmentbooking.component';
+import { UserhomeComponent } from './pages/userhome/userhome.component';
+import { UsercancellationsComponent } from './pages/usercancellations/usercancellations.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { AppointmentbookingComponent } from './pages/appointmentbooking/appointm
     UserdataComponent,
     AdminfeedbackComponent,
     UserbookingsComponent,
-    AppointmentbookingComponent
+    AppointmentbookingComponent,
+    UserhomeComponent,
+    UsercancellationsComponent
   ],
   imports: [
     BrowserModule,

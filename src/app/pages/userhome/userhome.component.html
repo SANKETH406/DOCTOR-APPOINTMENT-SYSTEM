@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="userhome.component.css">
+    <style>
+        
+        .dropbtn:hover, .dropbtn:focus {
+          background-color: #2980B9;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 140px;
+          overflow: auto;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          margin-left: 20px;
+        }
+        
+        .dropdown a:hover {background-color: #ddd;}
+        
+        .show {display: block;}
+        </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Woxen</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="UserHome.html"><u>HOME</u></a></li>
+                    <li><a href="userbkings.html"><u>MyBookings</u></a></li>
+                    <li><a href="userCanc.html"><u>MyCancellations</u></a></li>
+                    <li></li><a href="#profileDetails" onclick="myFunction()" class="dropbtn">Profile</a>
+                    <div class="dropdown">
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#Name">Chandu</a>
+                          <a href="#about">About</a>
+                          <a href="#contact">Contact</a>
+                          <a href="#AccountDetails">Account Settings</a>
+                          <a href="UserHome.html">Logout</a>
+                        </div>
+                      </div>
+                </ul>
+            </div>
+
+        </div> 
+        
+
+        <div class="form">
+            <h2>Reference Hospitals</h2>
+            <p>Especially For Cardialogy</p>
+            <button class="btnn"><a href="Home.html">Book appointment</a></button>
+        </div>
+        <div class="form1">
+            <h2>24/7DocBook Hospitals</h2>
+            <p>Especially For Neurology</p>
+            <button class="btnn"><a href="Home.html">Book appointment</a></button>
+            
+        </div>
+        <div class="form2">
+            <h2>NeverEnd Hospitals</h2>
+            <p>Especially For Dermetology</p>
+            <button class="btnn"><a href="Home.html">Book appointment</a></button>
+        </div>
+        </div>
+
+    
+
+    <div>
+        <button class="mybtn" onclick="myfunction()">click me</button>
+    </div>
+    <div class="dropdown">
+      <button class="btnn"><a href="Home.html">Book appointment</a></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#Name">Chandu</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="#AccountDetails">Account Settings</a>
+          <a href="UserHome.html">Logout</a>
+        </div>
+      </div>
+      
+      <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+</body>
+</html>
