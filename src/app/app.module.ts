@@ -16,6 +16,7 @@ import { AdmincancelComponent } from './pages/admincancel/admincancel.component'
 import { UserdataComponent } from './pages/userdata/userdata.component';
 import { AdminfeedbackComponent } from './pages/adminfeedback/adminfeedback.component';
 import { UserbookingsComponent } from './pages/userbookings/userbookings.component';
+import { AppointmentbookingComponent } from './pages/appointmentbooking/appointmentbooking.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { UserbookingsComponent } from './pages/userbookings/userbookings.compone
     AdmincancelComponent,
     UserdataComponent,
     AdminfeedbackComponent,
-    UserbookingsComponent
+    UserbookingsComponent,
+    AppointmentbookingComponent
   ],
   imports: [
     BrowserModule,
