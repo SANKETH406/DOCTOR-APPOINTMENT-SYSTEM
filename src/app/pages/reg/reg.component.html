@@ -17,20 +17,22 @@
         <div class="content" >
             
 
-                <div class="form">
+            <div class="form">
                     <h2>Sign Up Here</h2>
-                    <input type="email" name="email" placeholder="Enter Email">
-                    <input type="password" name="" placeholder="Enter Password">
+                    <form []="regForm" (ngSubmit)="getData()">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="password" name="" placeholder="Password">
                     <input type="password" name="" placeholder="Re-Enter Password">
-                    <input type="text" name="name" id="email" placeholder="Enter Fullname">
-                    <input type="tel" name="" placeholder="Enter Mobile Number">
-                    <input type="number" name="" placeholder="Enter Age">
+                    <input type="text" name="name" id="email" placeholder="Fullname">
+                    <input type="tel" name="" placeholder="Mobile Number">
+                    <input type="number" name="" placeholder="Age"><br>
                     <label for="gender">Gender</label>
                     <select class="gender" name = "dropdown">
                     <option value = "male" selected>Male</option>
                     <option value = "female">Female</option>
                     <option value = "others" required>Others</option>
                     </select>
+                    </form>
                     
 
                     <button class="btnn"><a>Register</a></button>
@@ -38,9 +40,8 @@
                     <p class="link">Already have an account<br>
                     <a routerLink="login" routerLinkActive="active-link">Login </a> here</p>
 
-                </div>
                     </div>
                 </div>
-    
+        </div> 
 </body>
 </html>

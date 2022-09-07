@@ -9,7 +9,6 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegComponent } from './pages/reg/reg.component';
 import { SupportComponent } from './pages/support/support.component';
 import { UserbookingsComponent } from './pages/userbookings/userbookings.component';
-import { UserdataComponent } from './pages/userdata/userdata.component';
 
 const routes: Routes = [
   {path:'login',component:LoginComponent},
@@ -17,12 +16,10 @@ const routes: Routes = [
   {path:'support',component:SupportComponent},
   {path:'home',component:HomeComponent},
   {path:'reg',component:RegComponent},
-  {path:'userdata',component:UserdataComponent},
   {path:'userbookings',component:UserbookingsComponent},
   {path:'admincancel',component:AdmincancelComponent},
   {path:'adminfeedback',component:AdminfeedbackComponent},
-  {path:'adminhome',component:AdminhomeComponent},
-  {path:'login',component:LoginComponent}
+  {path:'adminhome',component:AdminhomeComponent}
 ];
 
 @NgModule({

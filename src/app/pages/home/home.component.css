@@ -5,14 +5,14 @@
 
 .main{
     width: 100%;
-    background: url("https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80");
+    background: url("#");
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
 .navbar{
-    width: 1550px;
+    width: 1365px;
     height: 75px;
     margin: auto;
     background-color: rgb(212, 211, 211);
@@ -36,7 +36,7 @@
 }
 
 .menu{
-    width: 550px;
+    width: 400px;
     float: left;
     height: 70px;
     margin-left: 400px;
@@ -68,9 +68,22 @@ ul li a:hover{
     color: #242221;
 }
 
+.dropbtn{
+    margin-top:22px;
+    text-decoration: none;
+    color: #ff7200;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.dropbtn:hover{
+    color: #242221;
+}
+
 .form{
-    width: 275px;
-    height: 240px;
+    width: 250px;
+    height: 220px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 180px;
@@ -131,8 +144,8 @@ ul li a:hover{
 }
 
 .form1{
-    width: 275px;
-    height: 240px;
+    width: 250px;
+    height: 220px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 180px;
@@ -143,8 +156,8 @@ ul li a:hover{
 }
 
 .form2{
-    width: 275px;
-    height: 240px;
+    width: 250px;
+    height: 220px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 180px;
@@ -199,4 +212,5 @@ ul li a:hover{
     color: #000;
     font-weight: bold;
 }
+
 

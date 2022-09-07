@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Webpage Design</title>
-    <link rel="stylesheet" href="AdminHome.css">
+    <link rel="stylesheet" href="usercancellations.component.css">
 </head>
 <body>
 
@@ -14,10 +14,9 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="UserHome.html"><u>HOME</u></a></li>
-                    <li><a href="userbkings.html"><u>MyBookings</u></a></li>
-                    <li><a href="userCanc.html"><u>MyCancallations</u></a></li>
-                    <li><a href="#profileDetails"><u>Profile</u></a></li>
+                    <li><a routerLink="Home"><u>HOME</u></a></li>
+                    <li><a routerLink="userbookings"><u>MyBookings</u></a></li>
+                    <li><a routerLink="userCancellations"><u>MyCancallations</u></a>
 
                 </ul>
             </div>
@@ -53,120 +52,4 @@
                 </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
-
-
-<style>
-    *{
-    margin: 0;
-    padding: 0;
-}
-
-.main{
-    width: 100%;
-    background: #fff;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-}
-
-.navbar{
-    width: 1365px;
-    height: 75px;
-    margin: auto;
-    background-color: rgb(212, 211, 211);
-}
-
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
-}
-
-.logo{
-    color: #ff7200;
-    font-size: 35px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    margin-top: 5px;
-    margin-left: 80px;
-}
-
-.menu{
-    width: 400px;
-    float: left;
-    height: 70px;
-    margin-left: 400px;
-}
-
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    list-style: none;
-    margin-left: 58px;
-    margin-top: 27px;
-    font-size: 17px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #ff7200;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-
-ul li a:hover{
-    color: #242221;
-}
-
-table {
-    border-collapse: collapse;
-    width: 90%;
-    margin: 35px auto;
-    background: transparent;
-}
-
-table, th, td{
-    border: 2px solid black;
-    padding: 5px;
-}
-
-th{
-    font-size: 20px;
-    font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
-    color:#000000;
-}
-
-td{
-    font-size: 15px;
-    color:rgb(19, 18, 18);
-    font-weight: 150;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.content{
-    width: 1200px;
-    height: auto;
-    margin: auto;
-    color: rgb(22, 21, 21);
-    position: relative;
-}
-
-.content h1{
-    font-family: 'Times New Roman';
-    font-size: 50px;
-    padding-left: 445px;
-    margin-top: 15px;
-    letter-spacing: 2px;
-}
-
-</style>
 </html>

@@ -13,11 +13,9 @@ import { RegComponent } from './pages/reg/reg.component';
 import { AdminloginComponent } from './pages/adminlogin/adminlogin.component';
 import { AdminhomeComponent } from './pages/adminhome/adminhome.component';
 import { AdmincancelComponent } from './pages/admincancel/admincancel.component';
-import { UserdataComponent } from './pages/userdata/userdata.component';
 import { AdminfeedbackComponent } from './pages/adminfeedback/adminfeedback.component';
 import { UserbookingsComponent } from './pages/userbookings/userbookings.component';
 import { AppointmentbookingComponent } from './pages/appointmentbooking/appointmentbooking.component';
-import { UserhomeComponent } from './pages/userhome/userhome.component';
 import { UsercancellationsComponent } from './pages/usercancellations/usercancellations.component';
 
 @NgModule({
@@ -33,12 +31,10 @@ import { UsercancellationsComponent } from './pages/usercancellations/usercancel
     AdminloginComponent,
     AdminhomeComponent,
     AdmincancelComponent,
-    UserdataComponent,
     AdminfeedbackComponent,
     UserbookingsComponent,
     AppointmentbookingComponent,
-    UserhomeComponent,
-    UsercancellationsComponent
+    UsercancellationsComponent,
   ],
   imports: [
     BrowserModule,
