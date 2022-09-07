@@ -11,7 +11,7 @@ import { SupportComponent } from './pages/support/support.component';
 import { UserbookingsComponent } from './pages/userbookings/userbookings.component';
 
 const routes: Routes = [
-  {path:'login',component:LoginComponent},
+  {path:'',component:LoginComponent},
   {path:'about',component:AboutComponent},
   {path:'support',component:SupportComponent},
   {path:'home',component:HomeComponent},
@@ -19,7 +19,8 @@ const routes: Routes = [
   {path:'userbookings',component:UserbookingsComponent},
   {path:'admincancel',component:AdmincancelComponent},
   {path:'adminfeedback',component:AdminfeedbackComponent},
-  {path:'adminhome',component:AdminhomeComponent}
+  {path:'adminhome',component:AdminhomeComponent},
+  {path:'login',component:LoginComponent},
 ];
 
 @NgModule({
